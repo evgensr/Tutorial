@@ -55,7 +55,7 @@ Install s3fs-fuse
 
 ### Step 7
 ```sh
-mkdir /tmp/cache; mkdir /mnt/s3mnt ;  chmod 777 /tmp/cache /mnt/s3mnt
+# mkdir /tmp/cache; mkdir /mnt/s3mnt ;  chmod 777 /tmp/cache /mnt/s3mnt
 ```
 
 ### Step 8
