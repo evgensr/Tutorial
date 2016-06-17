@@ -4,9 +4,10 @@ Mount s3 bucket on centos 6
 
 
 ### Step 0
-Remove fuse
+Remove fuse and setup libs
 ```sh
 # yum erase fuse
+# yum install gcc libstdc++-devel gcc-c++ curl-devel libxml2-devel openssl-devel mailcap automake fuse-devel git libcurl-devel libxml2-devel make
 ```
 
 ### Step 1
